@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 1440px;
+    height: 6100px;
+    justify-self: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.page1{
+    width: 1440px;
+    height: 955px;
+    background: url(./assets/images/Image\ lider.gif);
+}
+.Hypicons{
+    width: 174px;
+    height: 18px;
+}
+.page1-1{
+    padding-top: 28px;
+    width: 1360px;
+    height: 74px;
+    display: flex;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    justify-self: center;
+    justify-content: space-between;
+}
+.page1-1 button{
+    width: 90px;
+    height: 20px;
+    background-color: rgba(148, 0, 255, 1);
+    border-radius: 200px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    font-family: IBM Plex Mono;
+    font-size: 13px;
+    font-weight: 100;
+}
+button:hover{
+    background-color: rgb(196, 133, 255);
+    color: black;
+}
+.text{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.page1-1 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.page1-2{
+    width: 1245px;
+    height: 725px;
+    justify-self: center;
+    padding: 73px 0 21px 0 ;
+    font-family: Manrope;
+}
+.page1-2 h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+.page1-2 h2{
+    font-size: 48px;
+    font-weight: 400;
+    padding: 14px 0 58px 0;
+    line-height: 62px;
+}
+.page1-2 button{
+    cursor: pointer;
+    background-color: rgba(148, 0, 255, 1);
+    width: 212px;
+    height: 50px;
+    border-radius: 200px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    font-family: IBM Plex Mono;
+    font-weight: 100;
+}
+.page1-2-2{
+    display: flex;
+    gap: 80px;
+    padding-top: 130px;
+}
+.page1-2-2 h1{
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.page1-2 p{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 30px;
+}
